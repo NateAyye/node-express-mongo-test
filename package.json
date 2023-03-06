@@ -2,7 +2,7 @@
   "name": "tut-06",
   "version": "1.0.0",
   "description": "Express Tutorial",
-  "main": "old_server.js",
+  "main": "server.js",
   "scripts": {
     "start": "node server",
     "dev": "nodemon server"
