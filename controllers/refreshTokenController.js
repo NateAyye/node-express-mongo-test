@@ -18,6 +18,7 @@ const handleRefreshToken = async (req, res) => {
         if (err) {
           return res.sendStatus(403);
         }
+        console.log("attempted refresh token reuse!");
         const hackedUser = await User.findOne({
           username: decoded.username,
         }).exec();
@@ -39,8 +40,10 @@ const handleRefreshToken = async (req, res) => {
     process.env.REFRESH_TOKEN_SECRET,
     async (err, decoded) => {
       if (err) {
+        console.log("expired refresh token");
         foundUser.refreshToken = [...newRefreshTokenArray];
         const result = await foundUser.save();
+        console.log(result);
       }
       if (err || foundUser.username !== decoded.username) {
         return res.sendStatus(403); // 403 Forbidden
@@ -71,7 +74,7 @@ const handleRefreshToken = async (req, res) => {
       res.cookie("jwt", newRefreshToken, {
         httpOnly: true,
         sameSite: "none",
-        secure: true, // Comment out when testing in ( JetClient || ThunderClient )
+        // secure: true, // Comment out when testing in ( JetClient || ThunderClient )
         maxAge: 24 * 60 * 60 * 1000,
       }); // 24(hrs) * 60(min) * 60(sec) * 1000(mile-sec) === 1 Day
       res.json({ roles, accessToken });
