@@ -43,7 +43,7 @@ const handleLogin = async (req, res) => {
     res.cookie("jwt", refreshToken, {
       httpOnly: true,
       sameSite: "none",
-      // secure: true, // Comment out when testing in ( JetClient || ThunderClient )
+      secure: true, // Comment out when testing in ( JetClient || ThunderClient )
       maxAge: 24 * 60 * 60 * 1000,
     }); // 24(hrs) * 60(min) * 60(sec) * 1000(mile-sec) === 1 Day
     res.json({ accessToken });
