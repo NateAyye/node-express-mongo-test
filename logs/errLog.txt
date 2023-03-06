@@ -1,0 +1,23 @@
+03\03\2023	21:21:07	dc939208-7320-407b-bf44-3ee320ee2e2d	TypeError: fsPromises.readFil is not a function
+03\03\2023	21:21:07	536c0377-41df-4d20-a32f-8145ccd05e11	TypeError: fsPromises.readFil is not a function
+03\04\2023	00:44:07	5b2b644a-e374-4aba-937f-7e828206d10a	Error: Not allowed by CORS
+03\04\2023	00:44:23	bb54ecca-df27-4f6d-94f4-ea4fe16854d5	Error: Not allowed by CORS
+03\04\2023	00:59:58	63382fbd-a298-4066-bf6b-1f38f0cd979d	Error: ENOENT: no such file or directory, stat 'N:\_Code\_Lessons\Node\tut-03\views\subdir\test.html'
+03\04\2023	01:34:04	54a17a86-7ffc-4a43-b9af-f71f9009edaa	ReferenceError: Cannot access 'employee' before initialization
+03\04\2023	13:48:41	ef57575c-48e8-42e7-bf90-3b4d64ee5ce8	TypeError: Cannot read properties of undefined (reading 'id')
+03\04\2023	13:49:16	accd01d2-9464-48e0-9d79-784ee51831ab	RangeError: Invalid status code: New Employee Created!!
+03\05\2023	17:38:31	800c5da5-dbf6-46fc-a316-2d64893bd63a	TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'MongoClient'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'client' closes the circle
+03\05\2023	17:39:56	26418fc3-9c74-4671-ad91-b89ecceec007	TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'MongoClient'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'client' closes the circle
+03\05\2023	17:40:53	ef43c1f4-de4c-428e-a0d4-939b35bcfcd6	TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'MongoClient'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'client' closes the circle

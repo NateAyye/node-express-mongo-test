@@ -1,0 +1,56 @@
+[
+ {
+  "username": "dave1",
+  "roles": {
+   "User": 2001
+  },
+  "password": "$2b$10$oEbHZlazDHE1YnnJ4XdpGuGh9a/JZOO7Xe6WZtRRsSMgprxMXnKza",
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImRhdmUxIiwiaWF0IjoxNjMzOTkyMjkwLCJleHAiOjE2MzQwNzg2OTB9.U85HVX_gcDZkHHSRWeo7AHfIe7q9i03dGW2ed3fHqAk"
+ },
+ {
+  "username": "walt2",
+  "roles": {
+   "User": 2001,
+   "Editor": 1984
+  },
+  "password": "$2b$10$cvfmz./teMWDccIMChAxZ.HqgL3eoQGYTm1z9lGy5iRf8D7NNargC",
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IndhbHQyIiwiaWF0IjoxNjMzOTkyNDU2LCJleHAiOjE2MzQwNzg4NTZ9.wRVJbN7_67JyTW9PALMWWEsO4BMkehyy5kXq6WilvWc"
+ },
+ {
+  "username": "walt1",
+  "roles": {
+   "User": 2001,
+   "Editor": 1984,
+   "Admin": 5150
+  },
+  "password": "$2b$10$33Q9jtAoaXC4aUX9Bjihxum2BHG.ENB6JyoCvPjnuXpITtUd8x8/y",
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IndhbHQxIiwiaWF0IjoxNjMzOTkyNTY0LCJleHAiOjE2MzQwNzg5NjR9.gE2CgbtEuqE42LeJ4dP6APmqyGTNBh53WXVyDdP47yM"
+ },
+ {
+  "username": "toweringDegree",
+  "roles": {
+   "User": 2001
+  },
+  "password": "$2b$10$TbTvsfpiqOzAkWx7Q47oz.F65RBU5tXvKOcO8mEC/V/ohPSotX5NC",
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRvd2VyaW5nRGVncmVlIiwiaWF0IjoxNjc4MDYwMDI1LCJleHAiOjE2NzgxNDY0MjV9.dBCQcrfX71zu0PiHNHHSwzy7zZ0NjAfMUusX6u4nbC0"
+ },
+ {
+  "username": "Devin",
+  "roles": {
+   "Editor": 1984,
+   "User": 2001
+  },
+  "password": "$2b$10$lQRqoB7RpYqZjEEIY6Y/zuGLbmOzQxQU9s/0JD8wPBSUe/nyXI1WC",
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkRldmluIiwiaWF0IjoxNjc4MDYwMjE5LCJleHAiOjE2NzgxNDY2MTl9.SRQ9C29a9zhrB3xqIBl9g4uuaWWHabuRnKimK3-v5LM"
+ },
+ {
+  "username": "NateAyye",
+  "roles": {
+   "Admin": 5150,
+   "Editor": 1984,
+   "User": 2001
+  },
+  "password": "$2b$10$L11J/6fiN6JsBsWb7EgBUOnmr4ibHZXD8TWZFBno1X44ykrS4ANCK",
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ik5hdGVBeXllIiwiaWF0IjoxNjc4MDYwNDE0LCJleHAiOjE2NzgxNDY4MTR9.durA-Aq83lwKpCh4uVRe-tQr-r2DzjpNQjFc5sqBTg8"
+ }
+]

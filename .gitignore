@@ -1,0 +1,6 @@
+# Folders
+node_modules
+.idea
+
+# Environment Variables
+.env
